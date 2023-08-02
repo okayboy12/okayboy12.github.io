@@ -554,6 +554,46 @@ button:active {
     padding: 0% 5%;
   }
 
+  .hamburger {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6070ffe0;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    padding: 20px 20px;
+  }
+
+  .hamburger ul {
+    width: 100%;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .hamburger li {
+    margin-top: 24px;
+  }
+
+  .hamburger li a {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 44px;
+    padding-top: 20px;
+  }
+
+  .close-btn {
+    float: right;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+  }
+
   .top-ground {
     display: none;
   }
@@ -660,10 +700,6 @@ button:active {
     float: left;
     margin-top: -5px;
     list-style-type: none;
-  }
-
-  li {
-    list-style: none;
   }
 
   .connect,

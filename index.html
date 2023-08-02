@@ -9,15 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
   </head>
   <body>
     <main class="boss">
       <div class="raj"></div>
       <header class="head">
         <div class="logo">My logo</div>
-        <nav class="navbar1">
+        <nav class="navbar1" >
           <img src="asset/images/Union.png" alt="button" />
         </nav>
         <nav class="navbar">
@@ -78,7 +77,7 @@
       <!-- ------------  GRID  ------------ -->
       <div class="boss2">
         <!-- ------------  Tonic  ------------ -->
-        <section class="tonic tonic4">
+        <section class="tonic tonic4" id="Portfolio">
           <aside class="desk">
             <div class="nature">
               <img
@@ -439,5 +438,16 @@
         </div>
       </section>
     </main>
+    <div class="hamburger">
+      <button class="close-btn">
+            <img src="asset/images/close.png" alt="close">
+      </button>
+      <ul>
+        <li><a href="#Portfolio" onclick="hide()">Portfolio</a></li>
+        <li><a href="#About" onclick="hide()">About</a></li>
+        <li><a href="#contact" onclick="hide()">Contact</a></li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
